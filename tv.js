@@ -16,11 +16,11 @@ var TV = function(){
     axios.get(URL).then(function(response){
       //console.log(response);
       output(`
-      Show Name: ${response.data.name}
-      Genres: ${response.data.genres.join(" ")}
-      Network: ${response.data.network.name}
-      Summary: ${response.data.summary}
-      -----------------------------------
+Show Name: ${response.data.name}
+Genres: ${response.data.genres.join(" ")}
+Network: ${response.data.network.name}
+Summary: ${response.data.summary}
+-----------------------------------
       `);
 
     })
@@ -31,11 +31,11 @@ var TV = function(){
     axios.get(URL).then(function(response){
       // console.log(response.data[0]);
        output(`
-      Actor Name: ${response.data[0].person.name}
-      birthday: ${response.data[0].person.birthday}
-      gender: ${response.data[0].person.gender}
-      country: ${response.data[0].person.country.name}
-       -----------------------------------
+Actor Name: ${response.data[0].person.name}
+birthday: ${response.data[0].person.birthday}
+gender: ${response.data[0].person.gender}
+country: ${response.data[0].person.country.name}
+-----------------------------------
        `);
 
     })

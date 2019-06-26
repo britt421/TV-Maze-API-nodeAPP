@@ -41,3 +41,15 @@
       country: United States
        -----------------------------------
        
+      Actor Name: Bryan Cranston
+      birthday: 1956-03-07
+      gender: Male
+      country: United States
+       -----------------------------------
+       
+Actor Name: Bryan Cranston
+birthday: 1956-03-07
+gender: Male
+country: United States
+-----------------------------------
+       
